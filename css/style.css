@@ -1,0 +1,171 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mogra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+*,html{
+    box-sizing: border-box;
+    margin:0;
+}
+/* start of nav settings */
+.navSettings{
+
+    background-color: #f7f1ef;
+    /* height:50px; */
+    text-align: center;
+    width: 100%;
+    position: relative;
+}
+.navSettings > a{
+    font-family: 'Kanit', sans-serif;
+    font-size: 25px;
+    padding: 0 10px;
+    text-decoration: none;
+    color:rgb(27, 147, 27);
+    font-weight: 800;
+}
+.navSettings > a:hover{
+    background-color: #dfe7cf;
+    color: rgb(47, 72, 72);
+}
+/* end of nav settings */
+
+/* start of main settings */
+.mainSettings{
+    background-color: rgb(246, 246, 244);
+    position: relative;
+    overflow: hidden;
+}
+
+.mainSettings >.appearance{
+    position: relative;
+    width: 100%;
+    height:500px;
+    /* background-color: #5f9ea0; */
+    box-shadow: 2px 2px 3px gray;
+    border: 1px solid rgb(214, 201, 201);
+}
+
+.mainSettings > .part3Setting{
+    width:80%;
+    height:450px;
+    background-color: rgb(179, 195, 179);
+    margin: auto;
+}
+
+.mainSettings > #part1 {
+    width: 100%;
+    font-size: 20px;
+    height:800px;
+    background-color: #f1f1f7;
+    overflow: hidden;
+    /* text-align: center; */
+}
+
+.mainSettings > .partition > .siteTitle {
+    position: absolute;
+    font-size: 65px;
+    left:25%;
+    top:20%;
+    /* left:0;
+    right:0;
+    margin: auto; */
+    text-align: center;
+    letter-spacing: 15px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color:rgb(215, 238, 82);
+    /* font-family: 'Fira Sans', sans-serif; */
+    font-family: 'Pangolin', cursive;
+    /* text-align: center; */
+    /* text-shadow: offset-x / offset-y / blur-radius / color*/
+    /* text-shadow: #29362d 2px 0 3px ; */
+    /* text-shadow: #7d9d12 0 20px 10px ; */
+    /* text-shadow: #7d9d12 0 20px 10px ,  #2b254f 0 20px 10px; */
+    text-shadow: 2px 2px 5px rgb(37, 35, 16) ,2px 2px 2px rgb(141, 29, 44), 3px 3px 4px rgb(132, 145, 82);
+    
+   padding:20px;
+
+}
+.mainSettings > #part1 > .siteImage{
+    position: absolute;
+    /* height:700px; */
+    width:100%;
+    
+    background-size: cover;
+   
+}
+
+.mainSettings > #part2 {
+    margin:auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    line-height: 40px;
+    width:95%;
+    box-shadow: 5px 5px 10px rgb(212, 210, 201) ;
+    padding: 20px;
+    background-color: rgba(207, 187, 135,0.2);
+}
+
+.mainSettings >#part3 > .borderStyles{
+
+    border: 20px solid black;
+    height:450px;
+    padding: 50px;
+    border-image-source:url('../assets/siteBkg1.jpg');
+    border-image-slice: 5%;
+    border-image-width: 5%;
+}
+.mainSettings >#part4{
+    margin:auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: rgb(137, 168, 135);
+}
+
+
+.mainSettings >#part5{
+    margin:auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    /* background-color: rgba(168, 144, 135,0.3); */
+    padding: 30px;
+    height: 1000px;
+}
+
+.iconCol{
+    color:beige;
+}
+.subTitles{
+    font-size: 40px;
+    text-align: center;
+}
+.contactForm{
+    text-align: center;
+    border: 2px solid rgb(48, 42, 42);
+    padding: 40px;
+    margin: 30px;
+}
+.contactForm > input[type="text"], input[type="email"]{
+    width:80%;
+    font-size: 20px;
+    margin: 15px;
+}
+.contactForm > label{
+    font-size: 22px;
+    /* color:#393f3f; */
+}
+/* end of main settings */
+
+/* footer settings */
+.footSettings{
+height:350px;
+padding: 50px;
+text-align: center;
+font-size: 30px;
+/* bottom: 0;
+position:fixed; */
+background-color: #393f3f;
+width: 100%;
+}
+/* end of footer settings */
